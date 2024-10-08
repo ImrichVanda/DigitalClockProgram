@@ -1,0 +1,29 @@
+body{
+    background-image: url(barcelona.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0;
+}
+
+#clock-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: calc(4vw + 1rem); /*adjusting the font size based on window width*/
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(2px);
+    background-color:hsla(0, 0%, 100%, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
